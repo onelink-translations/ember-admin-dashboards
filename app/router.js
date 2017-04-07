@@ -1,13 +1,18 @@
 import Ember from 'ember';
 import config from './config/environment';
 
-const Router = Ember.Router.extend({
-  location: config.locationType,
-  rootURL: config.rootURL
+var Router = Ember.Router.extend({
+  location: config.locationType
 });
 
-Router.map(function() {
-  this.route('scientists');
+export default Router.map(function() {
+  this.route('index');
+  this.route('widgets');
+  this.route('ui-timeline' , {path:'/'});
+  this.route('general-ui');
+  this.route('comingsoon');
+  this.route('ui-icons');
+  this.route('ui-buttons');
+  this.route('ui-modals');
+  this.route('documentation');
 });
-
-export default Router;
