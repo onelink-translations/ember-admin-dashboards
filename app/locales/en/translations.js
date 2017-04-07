@@ -87,15 +87,18 @@ export default {
       usertitle : "{{user}}\'s Timeline",
       timeline : 'Timeline',
       user : {
-        status : {
-          photo : {
-            one : 'uploaded a new photo.',
-            other : 'uploaded new photos.'
-          },
-          comment : 'commented on your post.',
-          email : 'sent you an email.',
-          video : 'shared a video.'
-        }
+        photo : {
+          one : 'uploaded a new photo',
+          other : 'uploaded new photos'
+        },
+        comment : 'commented on your post',
+        delete : 'Delete',
+        email : 'sent you an email',
+        friend : 'accepted your friend request',
+        readmore : 'Read more',
+        video : 'shared a video',
+        view : 'View comment',
+        viewall : 'View all comments'
       }
     },
     navigation : {
@@ -110,11 +113,24 @@ export default {
         today : 'Today',
         yesterday : 'Yesterday',
         tomorrow : 'Tomorrow',
-        count : {
+        day : {
           one : '1 day',
           other : '{{count}} days'
         }
       },
+      minute : {
+        one : '1 minute',
+        other : '{{count}} minutes'
+      },
+      hour : {
+        one : '1 hour',
+        other : '{{count}} hours'
+      },
+      second : {
+        one : '1 second',
+        other : '{{count}} seconds'
+      },
+      ago : 'ago',
       date : {
         jan : 'January',
         feb : 'Feburary',
