@@ -15,4 +15,5 @@ export default Router.map(function() {
   this.route('ui-buttons');
   this.route('ui-modals');
   this.route('documentation');
+  this.route('form-input');
 });
