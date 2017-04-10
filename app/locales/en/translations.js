@@ -39,11 +39,18 @@ export default {
     },
     customer : {
       info : {
-        name : 'Streamrail Admin'
+        name : 'Streamrail',
+        startdate : 'Member since {{date}}'
       },
+      job : 'System Administrator',
       project : {
         name : '<b>Streamrail</b>Dash'
-      }
+      },
+      followers : 'Followers',
+      sales : 'Sales',
+      friends : 'Friends',
+      profile : 'Profile',
+      logout : 'Sign out'
     },
     header : {
       mail : {
@@ -51,11 +58,7 @@ export default {
           one : 'You have <b>1</b> message.',
           other : 'You  have <b>{{count}}</b> messages.'
         },
-        time: {
-          one : '{{count}} mins',
-          other : '{{count}} mins'
-        },
-      more : 'View all messages'
+        more : 'View all messages'
       },
       notifications : {
         count : {
@@ -72,6 +75,17 @@ export default {
           other : '<b>{{count}}</b> sales made.',
         },
         username : 'You changed your username.'
+      },
+      tasks : {
+        count : {
+          one : 'You have one task.',
+          other : 'You have {{count}} tasks.'
+        },
+        button : 'Design new buttons',
+        theme : 'Create new themes',
+        task : 'Complete pending task',
+        transition : 'Make new transitions',
+        more : 'View all tasks'
       }
     },
     documentation : {
@@ -106,6 +120,8 @@ export default {
     timeline : {
       usertitle : "{{user}}\'s Timeline",
       timeline : 'Timeline',
+      like : 'Like',
+      dislike : 'Dislike',
       user : {
         photo : {
           one : 'uploaded a new photo',
@@ -115,11 +131,15 @@ export default {
         delete : 'Delete',
         email : 'sent you an email',
         friend : 'accepted your friend request',
+        link : 'shared a link',
         readmore : 'Read more',
         video : 'shared a video',
         view : 'View comment',
         viewall : 'View all comments'
-      }
+      },
+      embertitle : 'Ember.js',
+      ember : 'Ember.js, a javascript framework used to make responsive single-page applications.',
+      emberblurb : 'Check out this cool framework, Ember.js! Pretty neat, huh?'
     },
     navigation : {
       breadcrumbs : {

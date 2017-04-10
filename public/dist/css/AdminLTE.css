@@ -3614,6 +3614,14 @@ fieldset[disabled] .btn-vk.active {
 .margin-bottom {
   margin-bottom: 20px;
 }
+/* Image posts */
+.photos {
+  display: block;
+  max-width:150px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+}
 /* Display inline */
 .inline {
   display: inline;
