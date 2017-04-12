@@ -16,4 +16,5 @@ export default Router.map(function() {
   this.route('ui-modals');
   this.route('documentation');
   this.route('form-input');
+  this.route('randomtext');
 });

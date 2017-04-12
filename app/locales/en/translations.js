@@ -1,5 +1,11 @@
 export default {
   trans : {
+    placeholder : {
+      firstname : 'First Name',
+      lastname : 'Last Name',
+      example_email : 'example@fakesite.com',
+      password : 'Password'
+    },
     sidebar : {
       titles : {
         title : 'Main Nav',
@@ -9,7 +15,9 @@ export default {
         calendar : 'Calendar',
         documentation : 'Documentation',
         mailbox : 'Mailbox',
-        multilevel : 'Multilevel'
+        multilevel : 'Multilevel',
+        randomtext : 'Randomly Generated Text',
+        timeline : 'Timeline'
       },
       elements : {
         general : 'General UI element',
@@ -74,12 +82,16 @@ export default {
           one : '<b>1</b> sale made.',
           other : '<b>{{count}}</b> sales made.',
         },
-        username : 'You changed your username.'
+        username : 'You changed your username.',
+        tasks : {
+          one : 'You have one task.',
+          other : 'You have {{count}} tasks.'
+        }
       },
       tasks : {
         count : {
-          one : 'You have one task.',
-          other : 'You have {{count}} tasks.'
+          one : 'You have <b>one</b> task.',
+          other : 'You have <b>{{count}}</b> tasks.'
         },
         button : 'Design new buttons',
         theme : 'Create new themes',
@@ -116,6 +128,11 @@ export default {
       title : 'Coming soon.',
       subtitle : 'More example content coming soon!',
       body : 'This page will have content in the future which generates randomized text from an api, and translates it on the fly.'
+    },
+    randomtext : {
+      header : 'Random Text',
+      generate : 'Generate random text',
+      blurb : 'This section uses an api to pull in random gibberish text.  This is here to show we can translate data coming in from external sources, as well as the normal data present in the site, in the translations file.'
     },
     timeline : {
       usertitle : "{{user}}\'s Timeline",
