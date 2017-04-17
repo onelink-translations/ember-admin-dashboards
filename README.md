@@ -3,6 +3,11 @@ This project's goals:
 * To makle an easily translatable ember application
 * To work flawlessly and simple with OneLink's proxy
 
+
+## White paper
+
+[This](https://suhmedoh.gitbooks.io/whitepapers/content/emberjs-proxy-integration.html) whitepaper explains why this is a preferable approach to translating your content, and can explain how to get started.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
