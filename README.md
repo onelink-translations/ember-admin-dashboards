@@ -1,15 +1,7 @@
-# ember-admin-dashboard
+# ember-localization
 This project's goals:
-* "Emberize" the very awesome [AdminLTE template](https://github.com/almasaeed2010/AdminLTE) including Ember-Cli.
-* Show a demo implementation of a realtime dashboard pulling data from the twitter stream api with socket.io
-* 1 click deploy to Heroku (will work with github forks and clones as well):
-
-    [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-![tweet-dashboard](https://cloud.githubusercontent.com/assets/3126207/6563376/60659760-c6a9-11e4-9e5d-16e3fc11841b.gif)
-
-I will expose this project first at my upcoming talk in [Reversim Summit 2015](http://summit2015.reversim.com/proposal/4eTos8T9QfgZhrLYP)
-
+* To makle an easily translatable ember application
+* To work flawlessly and simple with OneLink's proxy
 
 ## Prerequisites
 
@@ -19,17 +11,17 @@ You will need the following things properly installed on your computer.
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone https://github.com/Suhmedoh/ember-localization`
+* `cd ember-localization`
 * `npm install`
 * `bower install`
 
 ## Running / Development
 
+* `cd ember-localization`
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
@@ -37,28 +29,23 @@ You will need the following things properly installed on your computer.
 
 Make use of the many generators for code, try `ember help generate` for more details
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
 
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Further Reading / Useful Links
 
+* [shaialon's main dashboard](https://github.com/shaialon/ember-admin-dashboards)
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://www.ember-cli.com/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## Hosting for development collaboration
 
-
-
+You can use a service like [surge.sh](https://surge.sh) to host your application and allow other people to see it.
+Follow the instructions [here](https://guides.emberjs.com/v2.6.0/tutorial/deploying/).
