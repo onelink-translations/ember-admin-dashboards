@@ -210,6 +210,15 @@ export default {
       "project": "Orange<b>dash</b>",
       "admin": "Orange Admin",
       "slogan": "we\"re committed to <i>repeeling</i> censorship.™"
+    },
+    "langs": {
+      "title" : "Languages:",
+      "ko": "Korean",
+      "ja": "Japanese",
+      "zh": "Chinese",
+      "de": "German",
+      "es": "Spanish",
+      "en": "English"
     }
   }
 };
